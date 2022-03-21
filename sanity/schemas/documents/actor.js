@@ -20,6 +20,12 @@ const actor = {
               source: 'fullname',
               maxLength: 200,
             }
+        },
+        {
+            title: 'picture',
+            name: 'picture',
+            type: 'string',
+            description: 'pic url',
         }
 
     ]

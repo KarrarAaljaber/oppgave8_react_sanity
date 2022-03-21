@@ -24,7 +24,7 @@ const Movies = () =>{
 
 
     const mapMovies = movies?.map((m) => (
-        <Movie title={m.title} actor={m.actor}  key={m.title}  />
+        <Movie title={m.title} actor={m.actor} picture={m.picture}  key={m.title}  />
       ));
     return(
         <div className="Movies">

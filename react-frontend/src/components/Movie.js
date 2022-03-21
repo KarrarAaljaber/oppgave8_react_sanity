@@ -1,10 +1,11 @@
 
-const Movie = ({title, actor}) =>{
+const Movie = ({title, actor, picture}) =>{
 
     return(
         <div className="movie">
-            <h1> Movie title -  {title}</h1>
-            <p> Actors in this movie - {actor}</p>
+             <h3> {title}</h3>
+            <img src={picture} />
+            <p> Acted in this movie - {actor}</p>
         </div>
     )
 }

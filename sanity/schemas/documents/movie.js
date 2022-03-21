@@ -16,6 +16,12 @@ const movie = {
             type: 'reference',
             to: [{ type: 'actor' }],
 
+        },
+        {
+            title: 'picture',
+            name: 'picture',
+            type: 'string',
+            description: 'pic url',
         }
 
     ]

@@ -4,6 +4,7 @@ import client from "../client";
 const eventFields = `
     title,
     'actor': actor->fullname,
+    picture,
 
 `
 
